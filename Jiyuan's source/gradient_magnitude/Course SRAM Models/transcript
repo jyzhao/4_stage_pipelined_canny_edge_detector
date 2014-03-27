@@ -1,0 +1,19 @@
+# //  ModelSim SE-64 10.1b Apr 26 2012 Linux 2.6.32-358.6.2.el6.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlib work
+vcom -reportprogress 300 -work work {/home/ecegrid/a/mg60/ece337/project/Course SRAM Models/on_chip_sram_wrapper.vhd}
+# Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: /home/ecegrid/a/mg60/ece337/project/Course SRAM Models/on_chip_sram_wrapper.vhd(14): Library ece337_ip not found.
+# ** Error: /home/ecegrid/a/mg60/ece337/project/Course SRAM Models/on_chip_sram_wrapper.vhd(15): (vcom-1136) Unknown identifier "ECE337_IP".
+# ** Error: /home/ecegrid/a/mg60/ece337/project/Course SRAM Models/on_chip_sram_wrapper.vhd(17): VHDL Compiler exiting

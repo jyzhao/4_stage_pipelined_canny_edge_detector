@@ -1,0 +1,19 @@
+# //  ModelSim SE-64 10.1b Apr 26 2012 Linux 2.6.32-358.6.2.el6.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlog -reportprogress 300 -work work /home/ecegrid/a/mg60/ece337/project/source/magnitude.sv
+# Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+# -- Compiling module magnitude
+# 
+# Top level modules:
+# 	magnitude
+vlog -reportprogress 300 -work work /home/ecegrid/a/mg60/ece337/project/source/magnitude.sv
+# Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+# -- Compiling module magnitude
+# ** Error: (vlog-3838) /home/ecegrid/a/mg60/ece337/project/source/magnitude.sv(31): Variable 'a' written by continuous and procedural assignments. See /home/ecegrid/a/mg60/ece337/project/source/magnitude.sv(15). 

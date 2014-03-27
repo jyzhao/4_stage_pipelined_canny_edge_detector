@@ -1,0 +1,149 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ecegrid/a/mg60/Desktop/ece337/project
+T_opt
+VZYkR_`e8KPR9VOVYnEa383
+04 8 4 work gradient fast 0
+=1-000ffed39733-528ac3c6-b0bb3-537d
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1b;51
+Z3 d/home/ecegrid/a/mg60/Desktop/ece337/project
+T_opt1
+VFMO>ETP^9a3dNG_ojH>l42
+04 9 4 work magnitude fast 0
+=2-1cc1def181a8-529a6b4c-b1c90-4d63
+R1
+n@_opt1
+R2
+vgradient
+Z4 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Il3^QMJ_gz2ezN[FJ]8LnL0
+VoF`Wh:zGE@RjMMlo_NM9W2
+S1
+R3
+w1385495313
+8/home/ecegrid/a/mg60/ece337/project/source/gradient.sv
+F/home/ecegrid/a/mg60/ece337/project/source/gradient.sv
+L0 1
+Z5 OL;L;10.1b;51
+r1
+31
+Z6 o-work work
+Z7 tCoverage 63 CoverExcludeDefault 1 CoverOpt 1 CoverFEC 0 CoverShortCircuit 0
+!s105 gradient_sv_unit
+!s100 GG_IGgCSbbIF1Ineb4^R[0
+!s108 1385846718.534055
+!s107 /home/ecegrid/a/mg60/ece337/project/source/gradient.sv|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/project/source/gradient.sv|
+!i10b 1
+!s85 0
+vgradient_magnitude_wrapper
+R4
+IH[75WSFa4Lc^PS9SaI3[g1
+V7f7W:n_NT6ZTg18<g6n^j3
+S1
+R3
+w1385846888
+8/home/ecegrid/a/mg60/ece337/project/source/gradient_magnitude_wrapper.sv
+F/home/ecegrid/a/mg60/ece337/project/source/gradient_magnitude_wrapper.sv
+L0 1
+R5
+r1
+31
+R6
+R7
+!s105 gradient_magnitude_wrapper_sv_unit
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/project/source/gradient_magnitude_wrapper.sv|
+!s100 TnFYVBik2B5f2ZJCSI;0c2
+!s108 1385846891.585995
+!s107 /home/ecegrid/a/mg60/ece337/project/source/gradient_magnitude_wrapper.sv|
+!i10b 1
+!s85 0
+vmagnitude
+R4
+I2WQ0<j3@RcWWeichOCa:C1
+VcJ2RQn[f]GDKLWjb<7`eg1
+S1
+R3
+w1385851708
+8/home/ecegrid/a/mg60/ece337/project/source/magnitude.sv
+F/home/ecegrid/a/mg60/ece337/project/source/magnitude.sv
+L0 1
+R5
+r1
+31
+R6
+R7
+!s105 magnitude_sv_unit
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/project/source/magnitude.sv|
+!i10b 1
+!s100 d[blg4XTLah90giSf>U@O0
+!s85 0
+!s108 1385851714.275724
+!s107 /home/ecegrid/a/mg60/ece337/project/source/magnitude.sv|
+vSobel
+IBl?GXPf9@CHIMkDDQ?IkG3
+VX<hGXXIHbkFmgF=e`kJoD1
+R3
+w1382472525
+8/home/ecegrid/a/mg60/ece337/project/Sobel.v
+F/home/ecegrid/a/mg60/ece337/project/Sobel.v
+L0 10
+R5
+r1
+31
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@sobel
+!s100 Y_Jg8LT8k<`BX:W5=>^951
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/project/Sobel.v|
+!s108 1384824346.054458
+!s107 /home/ecegrid/a/mg60/ece337/project/Sobel.v|
+!i10b 1
+!s85 0
+vtb_gradient
+R4
+II_RKX4[@OEUc]An>_?gTT0
+V1LmBDM]_;UaX5GSIBH5[_0
+S1
+R3
+w1385846912
+8/home/ecegrid/a/mg60/ece337/project/source/tb_gradient.sv
+F/home/ecegrid/a/mg60/ece337/project/source/tb_gradient.sv
+L0 1
+R5
+r1
+31
+R6
+R7
+!s105 tb_gradient_sv_unit
+!s100 m3]1]d<3=VW[1MQoEOQK40
+!s108 1385846916.912091
+!s107 /home/ecegrid/a/mg60/ece337/project/source/tb_gradient.sv|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/project/source/tb_gradient.sv|
+!i10b 1
+!s85 0
+vtb_magnitude
+R4
+I7Z:e208PgAQo?lPU?j@Al3
+VG4PIQn8NE?YZZDdc<AYLf1
+S1
+R3
+w1385848078
+8/home/ecegrid/a/mg60/ece337/project/source/tb_magnitude.sv
+F/home/ecegrid/a/mg60/ece337/project/source/tb_magnitude.sv
+L0 1
+R5
+r1
+31
+R6
+R7
+!s100 ^BZ15L0WFU5V[][ZXAB6L0
+!s105 tb_magnitude_sv_unit
+!s108 1385848113.861600
+!s107 /home/ecegrid/a/mg60/ece337/project/source/tb_magnitude.sv|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/project/source/tb_magnitude.sv|
+!i10b 1
+!s85 0

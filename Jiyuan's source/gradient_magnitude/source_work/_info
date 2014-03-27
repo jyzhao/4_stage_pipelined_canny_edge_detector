@@ -1,0 +1,100 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ecegrid/a/mg60/ece337/gradient_magnitude
+T_opt
+Vf^gQzeA]`_D=3WgbLVCld2
+04 29 4 work tb_gradient_magnitude_wrapper fast 0
+=1-1cc1def181a8-529b9299-79e63-300c
+o-quiet -auto_acc_if_foreign -work source_work -Lf /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work
+n@_opt
+OL;O;10.1b;51
+vgradient
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+IzQlB@m^[d1j`^P`U<h5Hb0
+VoF`Wh:zGE@RjMMlo_NM9W2
+S1
+Z2 d/home/ecegrid/a/mg60/ece337/gradient_magnitude
+w1385495313
+8source/gradient.sv
+Fsource/gradient.sv
+L0 1
+Z3 OL;L;10.1b;51
+r1
+31
+Z4 o-work source_work
+Z5 tCoverage 63 CoverExcludeDefault 1 CoverOpt 1 CoverFEC 0 CoverShortCircuit 0
+!s100 6C4@[^`DjlOl4eB>=8DkJ3
+!s105 gradient_sv_unit
+!s108 1385927314.597140
+!s107 source/gradient.sv|
+!s90 -work|source_work|source/gradient.sv|
+!i10b 1
+!s85 0
+vgradient_magnitude_wrapper
+R1
+I58DbgnI?VaIPDGoJJE4e:0
+V7f7W:n_NT6ZTg18<g6n^j3
+S1
+R2
+w1385846888
+8source/gradient_magnitude_wrapper.sv
+Fsource/gradient_magnitude_wrapper.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 jdc1;3SoF=56SDa_mY0683
+!s105 gradient_magnitude_wrapper_sv_unit
+!s108 1385927314.066133
+!s107 source/gradient_magnitude_wrapper.sv|
+!s90 -work|source_work|source/gradient_magnitude_wrapper.sv|
+!i10b 1
+!s85 0
+vmagnitude
+R1
+IK`_B:X_c_HIH18a<Q;eU23
+VcJ2RQn[f]GDKLWjb<7`eg1
+S1
+R2
+w1385927085
+8source/magnitude.sv
+Fsource/magnitude.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 `4YXa=Jcl[C49BOP5G=TS0
+!s105 magnitude_sv_unit
+!s85 0
+!s108 1385927314.897525
+!s107 source/magnitude.sv|
+!s90 -work|source_work|source/magnitude.sv|
+vtb_gradient_magnitude_wrapper
+R1
+I3F_^kdE:@6_iEVXSZXd0l2
+VGAb0=4glXGOT]1C67S`b_0
+S1
+R2
+w1385847528
+8source/tb_gradient_magnitude_wrapper.sv
+Fsource/tb_gradient_magnitude_wrapper.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 _z8iOTQ_KI`RHabIUYda83
+!s105 tb_gradient_magnitude_wrapper_sv_unit
+!s108 1385927314.335391
+!s107 source/tb_gradient_magnitude_wrapper.sv|
+!s90 -work|source_work|source/tb_gradient_magnitude_wrapper.sv|
+!i10b 1
+!s85 0

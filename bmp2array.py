@@ -1,0 +1,24 @@
+import Image
+import numpy, scipy
+import os
+import sys
+
+if (len(sys.argv) != 2):
+	print "Usage: python bmp2array.py <Image.bmp>"
+	sys.exit(1)
+else:
+	inputImage = Image.open(sys.argv[1],'r')
+#inputImage.draft('L',(500,500))
+
+imageArray = numpy.asarray(inputImage)
+
+outputArray = open('pixelArray.txt','w')
+
+for row in imageArray:
+	print row
+	outputArray.write("%s" % row)
+
+#inputImage.close()
+outputArray.close()
+
+sys.exit(0)

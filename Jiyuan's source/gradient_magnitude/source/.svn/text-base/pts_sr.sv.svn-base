@@ -1,0 +1,47 @@
+// $Id: $
+// File name:   pts_sr.sv
+// Created:     9/3/2013
+// Author:      Jiyuan Zhao
+// Lab Section: 337-02
+// Version:     1.0  Initial Design Entry
+// Description: 4-bit parallel-to-serial shift register
+
+module pts_sr
+  (
+  input wire clk,
+  input wire n_rst,
+  input wire shift_enable,
+  input wire load_enable,
+  input wire [3:0] parallel_in,
+  output wire serial_out
+  );
+  
+  reg [3:0] current_register;
+  reg [3:0] next_register;
+  
+  assign serial_out = current_register[3];
+  
+  always @ (posedge clk, negedge n_rst) begin
+  if (n_rst == 0) begin
+      current_register = 4'b1111;
+    end
+  else begin
+    current_register = next_register;
+  end
+end
+
+always @ (posedge clk) begin
+  next_register <= current_register;
+  if (load_enable == 1) begin
+    current_register <= parallel_in;
+  end
+    if (shift_enable == 1) begin
+      next_register <= {current_register[2:0],1'b1};
+    end
+    
+  end
+endmodule
+
+
+      
+    

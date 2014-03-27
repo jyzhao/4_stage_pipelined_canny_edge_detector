@@ -1,0 +1,49 @@
+// $Id: $
+// File name:   stp_sr.sv
+// Created:     9/3/2013
+// Author:      Jiyuan Zhao
+// Lab Section: 337-02
+// Version:     1.0  Initial Design Entry
+// Description: 4-bit serial-to-parallel shift register
+
+module stp_sr
+  #(
+    parameter NUM_BITS = 4,
+  parameter SHIFT_MSB = 1
+  )
+  (
+  input wire clk,
+  input wire n_rst,
+  input wire shift_enable,
+  input wire serial_in,
+  output reg [NUM_BITS-1:0] parallel_out
+  );
+  
+
+
+  
+  reg [NUM_BITS-1:0] current_register;
+  reg [NUM_BITS-1:0] next_register;
+  
+  
+  
+  always @ (posedge clk, negedge n_rst) begin
+    if (n_rst == 0) begin
+      //next_register <= 4'b1111;
+      //current_register <= 4'b1111;
+      parallel_out <= 4'b1111;
+    end
+  else begin
+    parallel_out <= next_register;
+    //parallel_out <= current_register;
+  end
+  end
+  
+  always @ (serial_in,shift_enable,parallel_out) begin
+  next_register = parallel_out;  
+  if (shift_enable == 1) begin
+    next_register = {parallel_out[2:0],serial_in};
+  end
+  
+   end
+   endmodule 

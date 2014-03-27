@@ -1,0 +1,19 @@
+// $Id: $
+// File name:   sensor_d.sv
+// Created:     8/27/2013
+// Author:      Jiyuan Zhao
+// Lab Section: 337-02
+// Version:     1.0  Initial Design Entry
+// Description: dataflow
+
+module sensor_d
+  (
+  input wire [3:0] sensors,
+  output wire error
+  );
+  
+ assign error = sensors[0] | sensors[1]&(sensors[3] | sensors[2]);
+ 
+ endmodule
+  
+  

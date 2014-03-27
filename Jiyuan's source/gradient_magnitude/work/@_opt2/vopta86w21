@@ -1,0 +1,270 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ecegrid/a/mg60/ece337/Lab2
+T_opt
+Vz_eIhLE]XWX<6aID4?;eO2
+04 10 4 work protein5_s fast 0
+=1-00144f29e264-521cf669-7e9c-6097
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1b;51
+Z3 d/home/ecegrid/a/mg60/ece337/Lab2
+T_opt1
+V]:QcBU98m_O]lEmZ6<;H91
+04 8 4 work sensor_s fast 0
+=1-000000000000-521cf805-e1350-4f9f
+R1
+n@_opt1
+R2
+R3
+T_opt2
+VPGiHR56fzm^gi=heH2^g71
+04 9 4 work tb_stp_sr fast 0
+=1-000ffed3985b-52784791-69c01-6b1f
+R1
+n@_opt2
+R2
+vfull_adder
+Z4 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+If<dl082^o:=bAWBi8Rdc60
+VB7WM8d812O]eMLA5TKo`U1
+S1
+R3
+w1378221461
+8/home/ecegrid/a/mg60/ece337/Lab2/source/full_adder.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/full_adder.sv
+L0 9
+Z5 OL;L;10.1b;51
+r1
+31
+Z6 o-work work
+Z7 tCoverage 63 CoverExcludeDefault 1 CoverOpt 1 CoverFEC 0 CoverShortCircuit 0
+!s100 @fbMIfJMHXQ4VV^K_AK<^0
+!s105 full_adder_sv_unit
+!s108 1378221464.552423
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/full_adder.sv|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/full_adder.sv|
+!i10b 1
+!s85 0
+vprotein5_s
+R4
+I^KHY]^:mDFzY96:N37Im81
+VFATDEz]:z:G[CU:ZMYmC;0
+S1
+R3
+w1377629709
+Z8 8/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_s.sv
+Z9 F/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_s.sv
+L0 23
+R5
+r1
+31
+R6
+R7
+Z10 !s105 sensor_s_sv_unit
+Z11 !s107 /home/ecegrid/a/mg60/ece337/Lab2/source/sensor_s.sv|
+Z12 !s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_s.sv|
+!s100 4XlBFgSf9Yz<`64;N4NNJ1
+!s108 1377629778.279699
+!i10b 1
+!s85 0
+vpts_sr
+R4
+IXMFd[A^WKf4FoHY^PTECS0
+VCFf8d>NDQ2`Rj>N]cR3@B3
+S1
+R3
+w1378228455
+8/home/ecegrid/a/mg60/ece337/Lab2/source/pts_sr.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/pts_sr.sv
+L0 9
+R5
+r1
+31
+R6
+R7
+!s105 pts_sr_sv_unit
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/pts_sr.sv|
+!s100 >lQ2hBH2;:;<i0f`E48bd3
+!s108 1378228458.696577
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/pts_sr.sv|
+!i10b 1
+!s85 0
+vsensor_b
+R4
+ILiD1Y`@o>Y_X[gKo]hV211
+V51KLhX8lYK3I@F5LJDMn:0
+S1
+R3
+w1377637025
+8/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_b.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_b.sv
+L0 9
+R5
+r1
+31
+R6
+R7
+!s105 sensor_b_sv_unit
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_b.sv|
+!s100 5<e]CINClenBFhFOV][kC3
+!s108 1377637030.803009
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/sensor_b.sv|
+!i10b 1
+!s85 0
+vsensor_d
+R4
+IUXSNjQPX]L6Lk]TTglm100
+VF1XATih@`[^C21lb5b1oV3
+S1
+R3
+w1377635980
+8/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_d.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_d.sv
+L0 9
+R5
+r1
+31
+R6
+R7
+!s105 sensor_d_sv_unit
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_d.sv|
+!s100 ^cVS@@DH=GnMWHaRlFC;I2
+!s108 1377635988.946407
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/sensor_d.sv|
+!i10b 1
+!s85 0
+vsensor_s
+R4
+I>m7HJC[];]dzSoGY:;hMB1
+VAi;323keO>]GUoff9BcLl2
+R10
+S1
+R3
+w1377634424
+R8
+R9
+L0 12
+R5
+r1
+31
+R12
+R6
+R7
+R11
+!s100 <S=Uo9glOi;6GaU=C@9z>2
+!s108 1377634426.909689
+!i10b 1
+!s85 0
+vstp_sr
+R4
+IG537MBo0Fg1L@hF:0Xin>3
+VPfF@@IX=B050[V]fo6G<70
+S1
+R3
+w1383614079
+8/home/ecegrid/a/mg60/ece337/Lab2/source/stp_sr.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/stp_sr.sv
+L0 9
+R5
+r1
+31
+R6
+R7
+!s105 stp_sr_sv_unit
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/stp_sr.sv|
+!s100 4bBndDEAlig2OU@b0QQa@2
+!s108 1383614084.939645
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/stp_sr.sv|
+!i10b 1
+!s85 0
+vsync
+R4
+I=X2:Fm@P2[coN28oThi2g1
+VQO61:BFGSR;[4OZZj0`bb1
+S1
+R3
+w1378229094
+8/home/ecegrid/a/mg60/ece337/Lab2/source/sync.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/sync.sv
+L0 9
+R5
+r1
+31
+R6
+R7
+!s100 M4=gTfcSRkElSza0g7>Io2
+!s105 sync_sv_unit
+!s108 1378229099.723920
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/sync.sv|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/sync.sv|
+!i10b 1
+!s85 0
+vtb_flex_stp_sr
+R4
+IVLAUJ[`f543@KD6YTeozD1
+Va`>ENm56UHU3P;J>OXg:i3
+Z13 !s105 tb_stp_sr_sv_unit
+S1
+R3
+w1378239537
+Z14 8/home/ecegrid/a/mg60/ece337/Lab2/source/tb_stp_sr.sv
+Z15 F/home/ecegrid/a/mg60/ece337/Lab2/source/tb_stp_sr.sv
+L0 11
+R5
+r1
+31
+Z16 !s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/tb_stp_sr.sv|
+R6
+R7
+Z17 !s107 /home/ecegrid/a/mg60/ece337/Lab2/source/tb_stp_sr.sv|
+!i10b 1
+!s100 T?zZlk5g5ObNS44aO:?CO3
+!s85 0
+!s108 1383614301.470219
+vtb_sensor_s
+R4
+ICiOo3L]3V>c^LCZh?Yb@B3
+VeYUOmFPaIV<7bcHVbH2Y`0
+S1
+R3
+w1377627061
+8/home/ecegrid/a/mg60/ece337/Lab2/source/tb_sensor_s.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/tb_sensor_s.sv
+L0 4
+R5
+r1
+31
+R6
+R7
+!s100 hU_TA<8olHaJXzXlNOCGe0
+!s105 tb_sensor_s_sv_unit
+!s108 1377630566.661630
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/tb_sensor_s.sv|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/tb_sensor_s.sv|
+!i10b 1
+!s85 0
+vtb_stp_sr
+R4
+I@dS<S6Sd^U]OYC?ON;AmM1
+Vm93_^PkbL7:]XE<3^4LIA1
+S1
+R3
+w1378232934
+R14
+R15
+L0 9
+R5
+r1
+31
+R6
+R7
+R13
+R16
+R17
+!s100 VelJ?gEHFP<EXVkQ^U`TH3
+!s108 1378233006.407697
+!i10b 1
+!s85 0

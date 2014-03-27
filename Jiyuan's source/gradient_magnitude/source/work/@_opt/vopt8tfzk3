@@ -1,0 +1,195 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ecegrid/a/mg60/ece337/Lab2/source
+T_opt
+VHJbgEh]g0Db=Z7UdXzV?51
+04 9 4 work magnitude fast 0
+=1-00144f406b5c-529514d6-83d66-583c
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1b;51
+T_opt1
+VK^[ckf8J05c0Nk??Tb_o_3
+04 10 4 work full_adder fast 0
+=1-000ffed3985b-5278354a-67754-6232
+R1
+n@_opt1
+R2
+Z3 d/home/ecegrid/a/mg60/ece337/Lab2/source
+T_opt2
+VU7<lj9iC9BmQl70E^[XV<0
+04 8 7 work gradient fast__1 0
+04 11 4 work tb_gradient fast 0
+=1-00144f406b5c-529502b6-35fdf-4e2f
+R1
+n@_opt2
+R2
+R3
+vfull_adder
+Z4 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+I]=70TSi9e>z<]5GJ8OH_V3
+VB7WM8d812O]eMLA5TKo`U1
+S1
+Z5 d/home/ecegrid/a/mg60/Desktop/ece337/Lab2/source
+w1378221461
+8/home/ecegrid/a/mg60/ece337/Lab2/source/full_adder.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/full_adder.sv
+L0 9
+Z6 OL;L;10.1b;51
+r1
+31
+Z7 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 @fbMIfJMHXQ4VV^K_AK<^0
+!s105 full_adder_sv_unit
+!s108 1383609667.468913
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/full_adder.sv|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/full_adder.sv|
+!i10b 1
+!s85 0
+vgradient
+R4
+IlBzQ5?P_K[b1N`c_gHFID0
+VoF`Wh:zGE@RjMMlo_NM9W2
+S1
+Z8 d/home/ecegrid/a/mg60/ece337/project/source
+w1385495313
+8/home/ecegrid/a/mg60/ece337/project/source/gradient.sv
+F/home/ecegrid/a/mg60/ece337/project/source/gradient.sv
+L0 1
+R6
+r1
+31
+R7
+!s100 GG_IGgCSbbIF1Ineb4^R[0
+!s105 gradient_sv_unit
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/project/source/gradient.sv|
+!s108 1385501225.763016
+!s107 /home/ecegrid/a/mg60/ece337/project/source/gradient.sv|
+!i10b 1
+!s85 0
+vmagnitude
+R4
+I_^5J>RBOWDK>Ec<1eaOSL1
+VcJ2RQn[f]GDKLWjb<7`eg1
+S1
+R8
+w1385501892
+8/home/ecegrid/a/mg60/ece337/project/source/magnitude.sv
+F/home/ecegrid/a/mg60/ece337/project/source/magnitude.sv
+L0 1
+R6
+r1
+31
+R7
+!s105 magnitude_sv_unit
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/project/source/magnitude.sv|
+!i10b 1
+!s100 z`Nn6_8K0Z@dQN2YE0Q4e1
+!s85 0
+!s108 1385501897.066639
+!s107 /home/ecegrid/a/mg60/ece337/project/source/magnitude.sv|
+vpts_sr
+R4
+I:EQddFW@LI`B7Pb[BUXHg0
+VCFf8d>NDQ2`Rj>N]cR3@B3
+S1
+R5
+w1378228455
+8/home/ecegrid/a/mg60/ece337/Lab2/source/pts_sr.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/pts_sr.sv
+L0 9
+R6
+r1
+31
+R7
+!s100 >lQ2hBH2;:;<i0f`E48bd3
+!s105 pts_sr_sv_unit
+!s108 1383609053.110069
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/pts_sr.sv|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/pts_sr.sv|
+!i10b 1
+!s85 0
+vsensor_b
+R4
+IP@zk3KH0FXfD35QZikAZ23
+V51KLhX8lYK3I@F5LJDMn:0
+S1
+R3
+w1377637025
+8/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_b.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_b.sv
+L0 9
+R6
+r1
+31
+R7
+!s100 5<e]CINClenBFhFOV][kC3
+!s105 sensor_b_sv_unit
+!s108 1380160321.343647
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/sensor_b.sv|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/sensor_b.sv|
+!i10b 1
+!s85 0
+vSobel
+InY@Sc]G5X<15_LUQ7eo2W3
+VX<hGXXIHbkFmgF=e`kJoD1
+R8
+w1382472525
+8/home/ecegrid/a/mg60/ece337/project/source/Sobel.v
+F/home/ecegrid/a/mg60/ece337/project/source/Sobel.v
+L0 10
+R6
+r1
+31
+R7
+n@sobel
+!s100 KK]bcDN9kPUdVfKjPOZX00
+!s108 1385497245.129064
+!s107 /home/ecegrid/a/mg60/ece337/project/source/Sobel.v|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/project/source/Sobel.v|
+!i10b 1
+!s85 0
+vstp_sr
+R4
+Ibi<[cn0^ie86BR]:3Zk^[0
+VPfF@@IX=B050[V]fo6G<70
+S1
+R5
+w1378242156
+8/home/ecegrid/a/mg60/ece337/Lab2/source/stp_sr.sv
+F/home/ecegrid/a/mg60/ece337/Lab2/source/stp_sr.sv
+L0 9
+R6
+r1
+31
+R7
+!s100 1=l10<ikbD<L:bPA32d951
+!s105 stp_sr_sv_unit
+!s108 1383609143.553797
+!s107 /home/ecegrid/a/mg60/ece337/Lab2/source/stp_sr.sv|
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/Lab2/source/stp_sr.sv|
+!i10b 1
+!s85 0
+vtb_gradient
+R4
+I6?i9R;T2GN9l8KDn^o4f[0
+V1LmBDM]_;UaX5GSIBH5[_0
+S1
+R8
+w1384825598
+8/home/ecegrid/a/mg60/ece337/project/source/tb_gradient.sv
+F/home/ecegrid/a/mg60/ece337/project/source/tb_gradient.sv
+L0 1
+R6
+r1
+31
+R7
+!s100 m3]1]d<3=VW[1MQoEOQK40
+!s105 tb_gradient_sv_unit
+!s90 -reportprogress|300|-work|work|/home/ecegrid/a/mg60/ece337/project/source/tb_gradient.sv|
+!s108 1385497357.848578
+!s107 /home/ecegrid/a/mg60/ece337/project/source/tb_gradient.sv|
+!i10b 1
+!s85 0

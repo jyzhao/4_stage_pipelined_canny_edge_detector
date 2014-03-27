@@ -1,0 +1,163 @@
+Synthesizing design: stp_sr.sv
+
+                      Design Compiler Graphical
+                            DC Ultra (TM)
+                             DFTMAX (TM)
+                         Power Compiler (TM)
+                           DesignWare (R)
+                           DC Expert (TM)
+                         Design Vision (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                            DFT Compiler
+                        Library Compiler (TM)
+                         Design Compiler(R)
+
+            Version G-2012.06 for RHEL64 -- May 30, 2012
+               Copyright (c) 1988-2012 Synopsys, Inc.
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+Initializing...
+dc_shell> dc_shell> Running PRESTO HDLC
+Searching for ./stp_sr.sv
+Searching for /package/eda/synopsys/syn-G-2012.06/libraries/syn/stp_sr.sv
+Searching for /package/eda/synopsys/syn-G-2012.06/dw/sim_ver/stp_sr.sv
+Searching for ./source/stp_sr.sv
+Compiling source file ./source/stp_sr.sv
+Presto compilation completed successfully.
+Loading db file '/package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db'
+Loading db file '/package/eda/synopsys/syn-G-2012.06/libraries/syn/dw_foundation.sldb'
+1
+dc_shell> Loading db file '/package/eda/synopsys/syn-G-2012.06/libraries/syn/gtech.db'
+Loading db file '/package/eda/synopsys/syn-G-2012.06/libraries/syn/standard.sldb'
+  Loading link library 'osu05_stdcells'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine stp_sr line 30 in file
+		'./source/stp_sr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  parallel_out_reg   | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'stp_sr'.
+1
+dc_shell> dc_shell> 1
+dc_shell> dc_shell> dc_shell> Warning: Can't find object 'sensors' in design 'stp_sr'. (UID-95)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+Warning: Can't find object 'error' in design 'stp_sr'. (UID-95)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+dc_shell> 1
+dc_shell> Information: Command 'set_max_total_power' is obsolete and is being ignored. (INFO-102)
+0
+dc_shell> dc_shell> dc_shell> dc_shell> Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | G-2012.06-DWBB_201206.0 |     *     |
+| Licensed DW Building Blocks        | G-2012.06-DWBB_201206.0 |           |
+============================================================================
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'stp_sr'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+  Structuring 'stp_sr'
+  Mapping 'stp_sr'
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 500)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+    0:00:00    8640.0      0.00       0.0       0.0                          
+Loading db file '/package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db'
+
+  Optimization Complete
+  ---------------------
+1
+dc_shell> dc_shell> dc_shell> dc_shell> dc_shell> dc_shell> dc_shell> dc_shell> Writing verilog file '/home/ecegrid/a/mg60/ece337/Lab2/mapped/stp_sr.v'.
+1
+dc_shell> 
+Script Done
+
+dc_shell> 
+Checking Design
+
+dc_shell> 1
+dc_shell> 
+Thank you...
+Done
+
+

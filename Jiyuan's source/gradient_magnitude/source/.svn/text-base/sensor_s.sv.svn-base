@@ -1,0 +1,31 @@
+// $Id: $
+// File name:   sensor_s.sv
+// Created:     8/27/2013
+// Author:      Jiyuan Zhao
+// Lab Section: 337-02
+// Version:     1.0  Initial Design Entry
+// Description: 
+
+
+
+
+module sensor_s
+(
+input wire [3:0] sensors,
+
+output wire error
+);
+
+//reg out1;
+//reg out2;
+//reg out;
+
+or (out1,sensors[2],sensors[3]);
+and(out2,sensors[1],out1);
+or (out,out2,sensors[0]);
+
+assign error = out;
+
+endmodule
+
+

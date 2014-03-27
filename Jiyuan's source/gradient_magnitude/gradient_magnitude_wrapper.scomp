@@ -1,0 +1,6 @@
+** Note: (vlog-1901) OptionFile "/home/ecegrid/a/ece337/Submissions/Fall09/Lab6/PHASEII/mg51/vlog.opt" not found. Ignored.
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module gradient_magnitude_wrapper
+
+Top level modules:
+	gradient_magnitude_wrapper
